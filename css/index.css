@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-color: rgba(0, 0, 34, 0.767);
+    user-select: none;
+    font-family: 'Gaegu', cursive;
+}
+.title {
+    display: flex;
+    transform: translateY(-3vw);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 9vw;
+    color: rgb(2, 0, 17);
+    cursor: pointer;
+}
+.titleHover {
+    color: white;
+}
+.hello {
+    display: none;
+    opacity: 0;
+    position: absolute;
+    color: white;
+    font-size: 3vw;
+}
