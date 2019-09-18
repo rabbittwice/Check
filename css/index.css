@@ -7,13 +7,17 @@ body {
     background-color: rgba(0, 0, 34, 0.767);
     user-select: none;
     font-family: 'Gaegu', cursive;
+    background-image: url('../img/fabric.jpg');
+    background-size: 70vw 50vw;
 }
 .title {
     display: flex;
     transform: translateY(-3vw);
+    height: 8vw;
     font-family: 'Permanent Marker', cursive;
-    font-size: 9vw;
-    color: rgb(2, 0, 17);
+    font-size: 7vw;
+    background-color: #1a1f36;
+    color: white;
     cursor: pointer;
 }
 .titleHover {
