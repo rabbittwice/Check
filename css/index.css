@@ -23,10 +23,3 @@ body {
 .titleHover {
     color: white;
 }
-.hello {
-    display: none;
-    opacity: 0;
-    position: absolute;
-    color: white;
-    font-size: 3vw;
-}

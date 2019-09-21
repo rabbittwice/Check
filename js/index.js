@@ -22,23 +22,8 @@
         setTimeout(function(){
             title.style.transitionDuration = '0s';
             titleTop = true;
-            sayHello();
         }, 500);
     });
-
-    const hello = document.querySelector('.hello');
-
-    function sayHello(){
-        hello.style.display = 'block';
-        hello.style.transitionDuration = '1s';
-        if (titleTop) {
-            setTimeout(function(){
-                hello.style.opacity = '1';
-            }, 500);
-            setTimeout(function(){
-                hello.style.opacity = '0';
-            }, 2000)
-        }
-    };
+    
     
 })();
